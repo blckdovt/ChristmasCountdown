@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="countdown.CountdownController">
+   <children>
+      <Pane prefHeight="238.0" prefWidth="710.0">
+         <children>
+            <Label fx:id="headline" layoutX="178.0" layoutY="51.0" text="Countdown to Christmas ">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="countdown" alignment="CENTER" layoutX="150.0" layoutY="145.0" prefHeight="79.0" prefWidth="410.0" text="X : X : X : X : X" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="description" layoutX="235.0" layoutY="119.0" opacity="0.65" text="Months : Days : Hours : Minutes : Seconds" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
